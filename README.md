@@ -1,5 +1,5 @@
 # Horiseon
-Accessibility features on Horiseon Website
+Generating accessibility features on Horiseon Website
 
 ## User Story
 
