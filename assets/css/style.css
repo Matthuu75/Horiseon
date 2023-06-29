@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    /* top portion of the website with the "Horeiseon" name and nav bar */
+/* top portion of the website with the "Horeiseon" name and nav bar */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -26,7 +26,7 @@ header h1 .seo {
 }
 
 header nav {
-    /* nav bar with 3 selections relating to bottom of webpage */
+/* nav bar with 3 selections relating to bottom of webpage */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -53,6 +53,7 @@ p {
 }
 
 img {
+/* main image in webpage */
     max-height: 100%;
     max-width: 100%;
     margin-bottom: 25px;
@@ -61,6 +62,32 @@ img {
 
 }
 
+section {
+/* 3 seperated sections with main information about the detailed information */
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+article img {
+    max-height: 200px;
+}
+
+article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* i had a tough time formatting these to my index.html without changing all 3 to the same positioning 🤷🏻‍♂️ */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,15 +96,10 @@ img {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-section {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+}   
 
 aside {
+/* section to the right of the page including the figure element going over marketing strategies */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -102,24 +124,6 @@ figure img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-article img {
-    max-height: 200px;
-}
-
-article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 footer {
