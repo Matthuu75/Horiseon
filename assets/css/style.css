@@ -9,6 +9,7 @@ body {
 }
 
 header {
+    /* top portion of the website with the "Horeiseon" name and nav bar */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -20,11 +21,12 @@ header h1 {
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
 header nav {
+    /* nav bar with 3 selections relating to bottom of webpage */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -50,13 +52,13 @@ p {
     font-size: 16px;
 }
 
-.hero {
-    height: 800px;
-    width: 100%;
+img {
+    max-height: 100%;
+    max-width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+
 }
 
 .float-left {
@@ -69,7 +71,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -86,49 +88,17 @@ aside {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
+figure {
+    margin-bottom: 10px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+figure h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+figure img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -143,29 +113,11 @@ article {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+article img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
