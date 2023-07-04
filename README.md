@@ -27,5 +27,5 @@ THEN I find a concise, descriptive title
 
 ## Deployed Website
 
-```
-https://matthuu75.github.io/Horiseon-Marketing-Strategies/
+
+<matthuu75.github.io/Horiseon-Marketing-Strategies>
