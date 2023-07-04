@@ -1,4 +1,4 @@
-# Horiseon
+# Horiseon Marketing Strategies
 Generating accessibility features on Horiseon Website
 
 ## User Story
@@ -24,6 +24,10 @@ THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
 ```
+
+## Mock-Up
+
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](assets/01-html-css-git-homework-demo.png)
 
 ## Deployed Website
 
