@@ -24,5 +24,6 @@ THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
 
-Link to the webpage for Horiseon Marketing Solutions
+## Deployed Website
+
 https://matthuu75.github.io/Horiseon-Marketing-Strategies/
