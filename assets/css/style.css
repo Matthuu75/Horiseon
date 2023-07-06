@@ -52,11 +52,12 @@ p {
     font-size: 16px;
 }
 
-img {
-    /* main image in webpage */
-    max-height: 100%;
-    max-width: 100%;
+.hero {
+    /* Main image in the webpage */
+    height: 800px;
+    width: 100%;
     margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 
